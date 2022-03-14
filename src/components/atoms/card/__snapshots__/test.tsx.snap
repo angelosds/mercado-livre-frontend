@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render the component 1`] = `
+<div
+  class="sc-bdvvtL iqvOvh"
+  data-testid="card-wrapper"
+/>
+`;
