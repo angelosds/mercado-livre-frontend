@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render button text 1`] = `
+<button
+  class="sc-bdvvtL gNXXAY"
+  type="button"
+>
+  hello world
+</button>
+`;
+
+exports[`Button should render the component 1`] = `
+<button
+  class="sc-bdvvtL gNXXAY"
+  type="button"
+/>
+`;
