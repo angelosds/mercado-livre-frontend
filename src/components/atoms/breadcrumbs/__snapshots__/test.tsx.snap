@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs should render the component 1`] = `
+<nav
+  class="sc-bdvvtL cJoBZk"
+>
+  <ul
+    class="sc-gsDKAQ bAqmQn"
+  />
+</nav>
+`;
