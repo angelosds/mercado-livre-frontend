@@ -6,7 +6,7 @@ export const Wrapper = styled.button`
   border: 0;
   color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.fontSizes.sm};
-  height: ${({ theme }) => theme.space.xl};
+  height: 44px;
   outline: 0;
   padding: 0 ${({ theme }) => theme.space.xl};
   transition: .2s background-color linear;
