@@ -18,6 +18,10 @@ export const theme: DefaultTheme = {
     gray200: '#dddddd',
     gray100: '#eeeeee',
 
+    border200: '#f7f7f7',
+
+    success: '#1ed760',
+
     white: '#ffffff',
   },
   fontSizes: {
@@ -39,4 +43,7 @@ export const theme: DefaultTheme = {
   radius: {
     sm: '4px'
   },
+  breakpoints: {
+    mobile: '565px'
+  }
 };

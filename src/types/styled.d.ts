@@ -19,6 +19,12 @@ declare module 'styled-components' {
       gray200: string;
       gray100: string;
 
+      // Borders
+      border200: string;
+
+      // Other
+      success: string;
+
       // White
       white: string;
     },
@@ -41,5 +47,8 @@ declare module 'styled-components' {
     radius: {
       sm: string;
     },
+    breakpoints: {
+      mobile: string;
+    }
   }
 }
