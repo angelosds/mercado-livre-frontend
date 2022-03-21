@@ -4,12 +4,13 @@ import * as S from './style'
 
 export type Props = {
   placeholder?: string;
+  radius?: 'full' | 'left' | 'right' | 'none';
   value?: string;
-  onChange: () => void;
+  onChange: React.ChangeEventHandler;
 }
 
-const Input = ({ placeholder, value, onChange }: Props) => (
-  <S.Wrapper placeholder={placeholder} value={value} onChange={onChange} />
+const Input = ({ placeholder, radius = 'full', value, onChange }: Props) => (
+  <S.Wrapper placeholder={placeholder} radius={radius} value={value} onChange={onChange} />
 )
 
 export default Input
