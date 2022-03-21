@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.nav`
-  color: ${({ theme }) => theme.colors.gray500};
+  color: ${({ theme }) => theme.colors.gray400};
   font-size: ${({ theme }) => theme.fontSizes.xs};
 `
 
@@ -17,8 +17,8 @@ export const Item = styled.li`
 `
 
 export const Chevron = styled.div`
-  border-bottom: 1px solid ${({ theme }) => theme.colors.gray500};
-  border-right: 1px solid ${({ theme }) => theme.colors.gray500};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.gray400};
+  border-right: 1px solid ${({ theme }) => theme.colors.gray400};
   height: 6px;
   margin: 0 6px;
   transform: rotate(-45deg) translateY(3px) translateX(-5px);
