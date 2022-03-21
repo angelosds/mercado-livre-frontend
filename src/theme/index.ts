@@ -4,16 +4,19 @@ import { pixelToRem } from '../utils';
 
 export const theme: DefaultTheme = {
   colors: {
-    primary500: '#fe6000',
+    primary500: '#fee600',
 
     secondary100: '#c6dcf7',
     secondary500: '#3483fa',
     secondary700: '#2968c8',
 
     gray900: '#333333',
-    gray700: '#666666',
-    gray500: '#999999',
-    gray300: '#eeeeee',
+    gray700: '#333333',
+    gray500: '#666666',
+    gray400: '#999999',
+    gray300: '#bbbbbb',
+    gray200: '#dddddd',
+    gray100: '#eeeeee',
 
     white: '#ffffff',
   },

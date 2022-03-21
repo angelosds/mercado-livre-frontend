@@ -14,7 +14,10 @@ declare module 'styled-components' {
       gray900: string;
       gray700: string;
       gray500: string;
+      gray400: string;
       gray300: string;
+      gray200: string;
+      gray100: string;
 
       // White
       white: string;
