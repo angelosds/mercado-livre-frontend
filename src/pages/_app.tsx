@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components'
 import { theme } from '../theme'
 
 import GlobalStyle from '../styles/global-style'
+import '../styles/fonts.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
