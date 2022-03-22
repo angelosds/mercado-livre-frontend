@@ -44,6 +44,7 @@ export const theme: DefaultTheme = {
     sm: '4px'
   },
   breakpoints: {
-    mobile: '565px'
+    mobile: '565px',
+    desktop: '1012px'
   }
 };

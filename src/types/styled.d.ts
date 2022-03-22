@@ -49,6 +49,7 @@ declare module 'styled-components' {
     },
     breakpoints: {
       mobile: string;
+      desktop: string;
     }
   }
 }
