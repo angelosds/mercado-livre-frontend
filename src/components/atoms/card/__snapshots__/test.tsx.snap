@@ -2,7 +2,7 @@
 
 exports[`Card should render the component 1`] = `
 <div
-  class="sc-bdvvtL iqvOvh"
+  class="sc-bdvvtL gRivML"
   data-testid="card-wrapper"
 />
 `;
