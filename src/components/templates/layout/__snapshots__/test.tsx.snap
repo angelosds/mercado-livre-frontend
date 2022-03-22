@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LayoutTemplate should render the component 1`] = `
+<main
+  class="sc-gKclnd iVaGiZ"
+>
+  <header
+    class="sc-eCImPb ckZxQf"
+  >
+    <div
+      class="sc-bdvvtL deJUUP"
+    >
+      <div
+        class="sc-jRQBWg hCCfgU"
+      >
+        <test-file-stub
+          height="36"
+          width="53"
+        />
+        <form
+          class="sc-gsDKAQ dTgJJS"
+        >
+          <input
+            class="sc-hKwDye gygVYn"
+            radius="left"
+            value=""
+          />
+          <button
+            class="sc-dkPtRN dOgblC"
+            type="submit"
+          >
+            <test-file-stub
+              height="18"
+              width="18"
+            />
+          </button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <div
+    class="sc-bdvvtL deJUUP"
+  />
+</main>
+`;
