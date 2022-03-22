@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
 
+import HomeTemplate from '../components/templates/home'
+
 const Home: NextPage = () => {
   return (
-    <div>
-      {/* TODO - Implement */}
-    </div>
+    <HomeTemplate />
   )
 }
 
