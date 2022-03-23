@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsListTemplate should render the component 1`] = `
+<div>
+  <div
+    data-testid="breadcrumbs"
+  >
+    <nav
+      class="sc-bdvvtL cJoBZk"
+    >
+      <ul
+        class="sc-gsDKAQ bAqmQn"
+      >
+        <li
+          class="sc-dkPtRN gQhtXB"
+        >
+          item 1
+          <div
+            class="sc-hKwDye isMpKn"
+          />
+        </li>
+        <li
+          class="sc-dkPtRN gQhtXB"
+        >
+          <strong>
+            item 2
+          </strong>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div
+    class="sc-eCImPb jXIUWd"
+    data-testid="card-wrapper"
+  >
+    <div
+      class="sc-crHmcD eePCkX"
+    >
+      <div
+        data-testid="item"
+      >
+        <a
+          href="/items/MLA902237011"
+        >
+          <div
+            class="sc-jRQBWg sqqum"
+          >
+            <div
+              class="sc-gKclnd iChrBO"
+            >
+              <span
+                style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 180px; height: 180px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <img
+                  data-nimg="fixed"
+                  decoding="async"
+                  src="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=384&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=384&q=75 2x"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                />
+              </span>
+            </div>
+            <div
+              class="sc-iCfMLu"
+            >
+              <div
+                class="sc-furwcr hWGjpI"
+              >
+                <span
+                  class="sc-jrQzAO cTzEAb"
+                  data-testid="price"
+                >
+                  $ 
+                  1.200
+                  <span
+                    class="sc-iqseJM jwtnvm"
+                    data-testid="truck"
+                  >
+                    <test-file-stub
+                      height="12"
+                      width="12"
+                    />
+                  </span>
+                </span>
+                <span
+                  class="sc-kDTinF jMFkxg"
+                >
+                  São Paulo
+                </span>
+              </div>
+              <h1
+                class="sc-pVTFL gizTlw"
+              >
+                Nome produto
+              </h1>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        data-testid="item"
+      >
+        <a
+          href="/items/MLA902237012"
+        >
+          <div
+            class="sc-jRQBWg sqqum"
+          >
+            <div
+              class="sc-gKclnd iChrBO"
+            >
+              <span
+                style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 180px; height: 180px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <img
+                  data-nimg="fixed"
+                  decoding="async"
+                  src="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=384&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=384&q=75 2x"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                />
+              </span>
+            </div>
+            <div
+              class="sc-iCfMLu"
+            >
+              <div
+                class="sc-furwcr hWGjpI"
+              >
+                <span
+                  class="sc-jrQzAO cTzEAb"
+                  data-testid="price"
+                >
+                  $ 
+                  1.200
+                  <span
+                    class="sc-iqseJM jwtnvm"
+                    data-testid="truck"
+                  >
+                    <test-file-stub
+                      height="12"
+                      width="12"
+                    />
+                  </span>
+                </span>
+                <span
+                  class="sc-kDTinF jMFkxg"
+                >
+                  São Paulo
+                </span>
+              </div>
+              <h1
+                class="sc-pVTFL gizTlw"
+              >
+                Nome produto
+              </h1>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
