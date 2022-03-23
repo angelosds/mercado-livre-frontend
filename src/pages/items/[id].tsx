@@ -1,17 +1,28 @@
 import type { GetServerSideProps, NextPage } from 'next'
+import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import Head from 'next/head';
 
 import api from '../../api';
 
 import ProductDetailsTemplate from '../../components/templates/product';
 
+import Product from '../../models/product';
+
 export type Props = {
-  data: any;
+  data: Product;
 }
 
 const Item: NextPage<Props> = ({ data }) => {
+  const { t } = useTranslation('common')
+
   return (
-    <ProductDetailsTemplate onBuyItem={() => {}} product={data} />
+    <>
+      <Head>
+        <title>{data.title} - {t('appName')}</title>
+      </Head>
+      <ProductDetailsTemplate onBuyItem={() => {}} product={data} />
+    </>
   )
 }
 

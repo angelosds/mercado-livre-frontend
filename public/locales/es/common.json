@@ -11,5 +11,6 @@
   "buy": "Compra",
   "selled_zero": "Ninguno vendido",
   "selled_one": "1 vendido",
-  "selled_other": "{{count}} vendidos"
+  "selled_other": "{{count}} vendidos",
+  "searchResults": "Resultados de búsqueda para {{term}} - {{appName}}"
 }
