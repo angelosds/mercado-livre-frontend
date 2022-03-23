@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import type { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
 import { ThemeProvider } from 'styled-components'
@@ -14,19 +15,25 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   const redirectToSearch = (search: string) => {
     router.push({
-      pathname: 'items',
+      pathname: '/items',
       query: { search }
     })
   }
 
   return (
-    <ThemeProvider theme={theme}>
-      <GlobalStyle />
+    <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
 
-      <LayoutTemplate onSearch={redirectToSearch}>
-        <Component {...pageProps} />
-      </LayoutTemplate>
-    </ThemeProvider>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+
+        <LayoutTemplate onSearch={redirectToSearch}>
+          <Component {...pageProps} />
+        </LayoutTemplate>
+      </ThemeProvider>
+    </>
   )
 }
 
