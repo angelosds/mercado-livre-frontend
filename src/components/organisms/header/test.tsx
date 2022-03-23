@@ -23,7 +23,7 @@ describe('Header', () => {
 
     build({ onSubmit })
 
-    fireEvent.change(screen.getByRole('textbox'), { target: { value: 'hello world' } })
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'hello world' } })
     fireEvent.click(screen.getByRole('button'))
 
     expect(onSubmit).toHaveBeenCalled()

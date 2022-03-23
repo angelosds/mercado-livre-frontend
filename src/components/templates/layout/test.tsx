@@ -31,7 +31,7 @@ describe('LayoutTemplate', () => {
 
     build({ children: '', onSearch })
 
-    fireEvent.change(screen.getByRole('textbox'), { target: { value: 'hello world' } })
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'hello world' } })
     fireEvent.click(screen.getByRole('button'))
 
     expect(onSearch).toHaveBeenCalled()
