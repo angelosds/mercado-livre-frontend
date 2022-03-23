@@ -13,10 +13,14 @@ exports[`LayoutTemplate should render the component 1`] = `
       <div
         class="sc-jRQBWg hCCfgU"
       >
-        <test-file-stub
-          height="36"
-          width="53"
-        />
+        <a
+          href="/"
+        >
+          <test-file-stub
+            height="36"
+            width="53"
+          />
+        </a>
         <form
           class="sc-gsDKAQ dTgJJS"
         >
@@ -39,7 +43,20 @@ exports[`LayoutTemplate should render the component 1`] = `
     </div>
   </header>
   <div
-    class="sc-bdvvtL deJUUP"
-  />
+    class="sc-iCfMLu keDpkY"
+  >
+    <div
+      class="sc-bdvvtL deJUUP"
+    />
+  </div>
+  <footer
+    class="sc-furwcr bnuQmD"
+  >
+    <div
+      class="sc-bdvvtL deJUUP"
+    >
+      Copyright © 2022 - Mercado Libre
+    </div>
+  </footer>
 </main>
 `;

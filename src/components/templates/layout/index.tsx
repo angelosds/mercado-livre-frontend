@@ -13,9 +13,18 @@ export type Props = {
 const LayoutTemplate = ({ children, onSearch }: Props) => (
   <S.Wrapper>
     <Header onSubmit={onSearch} />
-    <Container data-testid="container">
-      {children}
-    </Container>
+
+    <S.ContainerWrapper>
+      <Container data-testid="container">
+        {children}
+      </Container>
+    </S.ContainerWrapper>
+
+    <S.Footer>
+      <Container>
+        Copyright &copy; 2022 - Mercado Libre
+      </Container>
+    </S.Footer>
   </S.Wrapper>
 )
 
