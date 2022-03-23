@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'next-i18next';
 
 import Container from '../../atoms/container';
 import Header from '../../organisms/header'
@@ -10,22 +11,26 @@ export type Props = {
   onSearch: (query: string) => void
 }
 
-const LayoutTemplate = ({ children, onSearch }: Props) => (
-  <S.Wrapper>
-    <Header onSubmit={onSearch} />
+const LayoutTemplate = ({ children, onSearch }: Props) => {
+  const { t } = useTranslation('common')
 
-    <S.ContainerWrapper>
-      <Container data-testid="container">
-        {children}
-      </Container>
-    </S.ContainerWrapper>
+  return (
+    <S.Wrapper>
+      <Header onSubmit={onSearch} />
 
-    <S.Footer>
-      <Container>
-        Copyright &copy; 2022 - Mercado Libre
-      </Container>
-    </S.Footer>
-  </S.Wrapper>
-)
+      <S.ContainerWrapper>
+        <Container data-testid="container">
+          {children}
+        </Container>
+      </S.ContainerWrapper>
+
+      <S.Footer>
+        <Container>
+          {t('copyright', { appName: t('appName') })}
+        </Container>
+      </S.Footer>
+    </S.Wrapper>
+  )
+}
 
 export default LayoutTemplate

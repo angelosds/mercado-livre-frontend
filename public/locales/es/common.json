@@ -1,0 +1,14 @@
+{
+  "appName": "Mercado Libre",
+  "searchHint": "Para comenzar, busque un producto en la barra de búsqueda de arriba.",
+  "copyright": "Copyright © 2022 - {{appName}}",
+  "productCondition": {
+    "new": "Nuevo",
+    "used": "Usado"
+  },
+  "productDescription": "Descripción del producto",
+  "buy": "Compra",
+  "selled_zero": "Ninguno vendido",
+  "selled_one": "1 vendido",
+  "selled_other": "{{count}} vendidos"
+}

@@ -4,6 +4,6 @@ exports[`HomeTemplate should render the component 1`] = `
 <div
   class="sc-bdvvtL iYjgiH"
 >
-  Para começar, pesquise por um produto na barra de pesquisas acima.
+  searchHint
 </div>
 `;

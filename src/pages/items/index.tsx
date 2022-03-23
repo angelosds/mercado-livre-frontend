@@ -1,4 +1,5 @@
 import type { GetServerSideProps, NextPage } from 'next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import api from '../../api';
 
@@ -16,11 +17,11 @@ const Items: NextPage<Props> = ({ categories, items }) => {
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ query }) => {
+export const getServerSideProps: GetServerSideProps = async ({ locale = 'es', query }) => {
   const { search } = query
   const { data } = await api.get('items', { params: { search } })
 
-  return { props: { ...data } }
+  return { props: { ...data , ...(await serverSideTranslations(locale, ['common'])),} }
 }
 
 export default Items

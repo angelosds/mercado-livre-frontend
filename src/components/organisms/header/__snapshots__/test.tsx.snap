@@ -12,6 +12,7 @@ exports[`Header should render the component 1`] = `
     >
       <a
         href="/"
+        title="appName"
       >
         <test-file-stub
           height="36"

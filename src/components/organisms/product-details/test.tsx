@@ -6,6 +6,17 @@ import { theme } from '../../../theme';
 
 import ProductDetails, { Props } from '.'
 
+jest.mock('react-i18next', () => ({
+  useTranslation: () => {
+    return {
+      t: (str: string, options: object) => `${str}|${JSON.stringify(options)}`,
+      i18n: {
+        changeLanguage: () => new Promise(() => {}),
+      },
+    };
+  },
+}), { virtual: true });
+
 const defaultProps: Props = {
   product: {
     condition: 'Novo',
