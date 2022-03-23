@@ -22,7 +22,7 @@ const ProductDetails = ({ product: { condition, description, picture, price, tit
     <Card>
       <S.Wrapper>
         <S.Content>
-          <Image src={picture} layout="responsive" objectFit="contain" height={640} width={640} priority={true}  />
+          <Image src={picture} alt={title} layout="responsive" objectFit="contain" height={640} width={640} priority={true}  />
 
           <S.Info>
             <S.Details data-testid="details">{t(`productCondition.${condition}`)} - {t('selled', { count: sold_quantity })}</S.Details>

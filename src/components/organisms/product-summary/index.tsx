@@ -16,7 +16,7 @@ const ProductSummary = ({ product: { free_shipping, id, picture, state_name, pri
     <a>
       <S.Wrapper>
         <S.ImageWrapper>
-          <Image src={picture} layout="fixed" objectFit="contain" height={180} width={180} priority={true} />
+          <Image src={picture} alt={title} layout="fixed" objectFit="contain" height={180} width={180} priority={true} />
         </S.ImageWrapper>
         <S.Container>
           <S.InfoContainer>

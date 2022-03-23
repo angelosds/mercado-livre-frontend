@@ -52,6 +52,7 @@ exports[`ProductsListTemplate should render the component 1`] = `
                 style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 180px; height: 180px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
               >
                 <img
+                  alt="Nome produto"
                   data-nimg="fixed"
                   decoding="async"
                   src="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=384&q=75"
@@ -113,6 +114,7 @@ exports[`ProductsListTemplate should render the component 1`] = `
                 style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 180px; height: 180px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
               >
                 <img
+                  alt="Nome produto"
                   data-nimg="fixed"
                   decoding="async"
                   src="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=384&q=75"

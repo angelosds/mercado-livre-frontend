@@ -18,6 +18,7 @@ exports[`ProductDetails should render the component 1`] = `
           style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
         />
         <img
+          alt="Nome produto"
           data-nimg="responsive"
           decoding="async"
           sizes="100vw"
