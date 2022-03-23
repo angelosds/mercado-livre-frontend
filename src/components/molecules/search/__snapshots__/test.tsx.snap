@@ -6,6 +6,7 @@ exports[`Search should render the component 1`] = `
 >
   <input
     class="sc-dkPtRN jQivHA"
+    placeholder="searchPlaceholder"
     radius="left"
     type="search"
     value=""

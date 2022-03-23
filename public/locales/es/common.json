@@ -1,6 +1,7 @@
 {
   "appName": "Mercado Libre",
   "searchHint": "Para comenzar, busque un producto en la barra de búsqueda de arriba.",
+  "searchPlaceholder": "Nunca dejes de buscar",
   "copyright": "Copyright © 2022 - {{appName}}",
   "productCondition": {
     "new": "Nuevo",

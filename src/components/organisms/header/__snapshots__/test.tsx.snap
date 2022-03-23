@@ -24,6 +24,7 @@ exports[`Header should render the component 1`] = `
       >
         <input
           class="sc-hKwDye gygVYn"
+          placeholder="searchPlaceholder"
           radius="left"
           type="search"
           value=""
