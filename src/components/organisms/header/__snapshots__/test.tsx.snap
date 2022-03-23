@@ -10,10 +10,14 @@ exports[`Header should render the component 1`] = `
     <div
       class="sc-jRQBWg hCCfgU"
     >
-      <test-file-stub
-        height="36"
-        width="53"
-      />
+      <a
+        href="/"
+      >
+        <test-file-stub
+          height="36"
+          width="53"
+        />
+      </a>
       <form
         class="sc-gsDKAQ dTgJJS"
       >
