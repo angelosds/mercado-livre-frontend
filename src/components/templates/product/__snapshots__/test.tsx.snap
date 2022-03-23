@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetailsTemplate should render the component 1`] = `
+<div
+  class="sc-gsDKAQ bgFRru"
+  data-testid="card-wrapper"
+>
+  <section
+    class="sc-dkPtRN ciGVzC"
+  >
+    <div
+      class="sc-hKwDye eWEWxW"
+    >
+      <span
+        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+      >
+        <span
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+        />
+        <img
+          data-nimg="responsive"
+          decoding="async"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_974179-MLB43818784989_102020-W.webp&w=3840&q=75 3840w"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+        />
+      </span>
+      <div
+        class="sc-eCImPb CcoOd"
+      >
+        <p
+          class="sc-jRQBWg cwjEuF"
+          data-testid="details"
+        >
+          Novo
+           - 
+          30
+           vendidos
+        </p>
+        <h1
+          class="sc-gKclnd gYcJiM"
+        >
+          Nome produto
+        </h1>
+        <button
+          class="sc-bdvvtL iMiavG"
+          type="button"
+        >
+          Comprar
+        </button>
+        <p
+          class="sc-iCfMLu FuuQL"
+          data-testid="price"
+        >
+          $ 
+          1.200
+          <span
+            class="sc-furwcr iyOiGj"
+          >
+            99
+          </span>
+        </p>
+      </div>
+    </div>
+    <div
+      class="sc-hKwDye eWEWxW"
+    >
+      <div>
+        <h2
+          class="sc-pVTFL iXEJci"
+        >
+          Descrição do produto
+        </h2>
+        <p
+          class="sc-jrQzAO cYTIJZ"
+          data-testid="description"
+        >
+          Descrição
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+`;
