@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeTemplate should render the component 1`] = `
+<div
+  class="sc-bdvvtL iYjgiH"
+>
+  Para começar, pesquise por um produto na barra de pesquisas acima.
+</div>
+`;
