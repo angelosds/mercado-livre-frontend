@@ -1,55 +1,61 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ProductSummary should render the component 1`] = `
-<div
-  class="sc-bdvvtL iqfOnv"
+<a
+  href="/items/MLA902237011"
 >
   <div
-    class="sc-gsDKAQ enPgso"
-  >
-    <span
-      style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 180px; height: 180px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-    >
-      <img
-        data-nimg="fixed"
-        decoding="async"
-        src="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_721876-MLA46114648081_052021-O.webp&w=384&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_721876-MLA46114648081_052021-O.webp&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_721876-MLA46114648081_052021-O.webp&w=384&q=75 2x"
-        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
-      />
-    </span>
-  </div>
-  <div
-    class="sc-dkPtRN"
+    class="sc-bdvvtL iqfOnv"
   >
     <div
-      class="sc-hKwDye dEavdP"
+      class="sc-gsDKAQ enPgso"
     >
       <span
-        class="sc-jRQBWg ipLcBZ"
+        style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 180px; height: 180px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
       >
-        20000
-        <span
-          class="sc-iCfMLu lmxByb"
-          data-testid="truck"
-        >
-          <test-file-stub
-            height="12"
-            width="12"
-          />
-        </span>
-      </span>
-      <span
-        class="sc-gKclnd bqOqBf"
-      >
-        São Paulo
+        <img
+          data-nimg="fixed"
+          decoding="async"
+          src="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_721876-MLA46114648081_052021-O.webp&w=384&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_721876-MLA46114648081_052021-O.webp&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_721876-MLA46114648081_052021-O.webp&w=384&q=75 2x"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+        />
       </span>
     </div>
-    <h1
-      class="sc-eCImPb dCpwnM"
+    <div
+      class="sc-dkPtRN"
     >
-      iPhone
-    </h1>
+      <div
+        class="sc-hKwDye dEavdP"
+      >
+        <span
+          class="sc-jRQBWg ipLcBZ"
+          data-testid="price"
+        >
+          $ 
+          20.000
+          <span
+            class="sc-iCfMLu lmxByb"
+            data-testid="truck"
+          >
+            <test-file-stub
+              height="12"
+              width="12"
+            />
+          </span>
+        </span>
+        <span
+          class="sc-gKclnd bqOqBf"
+        >
+          São Paulo
+        </span>
+      </div>
+      <h1
+        class="sc-eCImPb dCpwnM"
+      >
+        iPhone
+      </h1>
+    </div>
   </div>
-</div>
+</a>
 `;

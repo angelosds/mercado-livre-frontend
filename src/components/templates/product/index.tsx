@@ -10,7 +10,7 @@ export type Props = {
 }
 
 const ProductDetailsTemplate = ({ product, onBuyItem }: Props) => (
-  <ProductDetails {...product} onBuyItem={onBuyItem} />
+  <ProductDetails product={product} onBuyItem={onBuyItem} />
 )
 
 export default ProductDetailsTemplate

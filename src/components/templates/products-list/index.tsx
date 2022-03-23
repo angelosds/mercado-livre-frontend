@@ -8,15 +8,15 @@ import ProductSummary from '../../organisms/product-summary';
 import * as S from './style'
 
 export type Props = {
-  breadcrumbsItems: Array<string> | null;
-  items: Array<Product> | null;
+  breadcrumbsItems?: Array<string>;
+  items?: Array<Product>;
 }
 
 const ProductsListTemplate = ({ breadcrumbsItems, items }: Props) => (
   <div>
     {breadcrumbsItems && breadcrumbsItems.length ?
       <div data-testid="breadcrumbs">
-        <Breadcrumbs  items={breadcrumbsItems} />
+        <Breadcrumbs items={breadcrumbsItems} />
       </div>
       : null
     }
@@ -24,8 +24,8 @@ const ProductsListTemplate = ({ breadcrumbsItems, items }: Props) => (
     <Card>
       <S.ListWrapper>
         {items?.map(item => (
-          <div data-testid="item">
-            <ProductSummary key={item.id} {...item} price={item.price} />
+          <div data-testid="item" key={item.id}>
+            <ProductSummary product={item} />
           </div>
         ))}
       </S.ListWrapper>

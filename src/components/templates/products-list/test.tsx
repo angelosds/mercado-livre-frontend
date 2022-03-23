@@ -53,19 +53,19 @@ describe('ProductsListTemplate', () => {
   })
 
   it('should not render breadrumbs', () => {
-    build({ ...defaultProps, breadcrumbsItems: null })
+    build({ ...defaultProps, breadcrumbsItems: undefined })
 
     expect(screen.queryByTestId('breadcrumbs')).toBeFalsy()
   })
 
   it('should render items lits', () => {
-    build({ ...defaultProps, breadcrumbsItems: null })
+    build({ ...defaultProps, breadcrumbsItems: undefined })
 
     expect(screen.queryAllByTestId('item').length).toEqual(2)
   })
 
   it('should not render items lits', () => {
-    build({ items: null, breadcrumbsItems: null })
+    build({ items: undefined, breadcrumbsItems: undefined })
 
     expect(screen.queryAllByTestId('item').length).toEqual(0)
   })

@@ -64,4 +64,13 @@ export const Description = styled.p`
   color: ${({ theme }) => theme.colors.gray500};
   font-size: ${({ theme }) => theme.fontSizes.sm};
   margin: 0;
+  white-space: pre-line;
+  word-break: break-word;
+`
+
+export const ImageWrapper = styled.img`
+  max-height: 200px;
+  max-width: 200px;
+  object-fit: contain;
+  width: 100%;
 `

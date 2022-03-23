@@ -73,7 +73,7 @@ exports[`ProductDetails should render the component 1`] = `
           Descrição do produto
         </h2>
         <p
-          class="sc-jrQzAO JNCXr"
+          class="sc-jrQzAO cYTIJZ"
           data-testid="description"
         >
           Descrição

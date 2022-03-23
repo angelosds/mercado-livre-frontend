@@ -7,22 +7,18 @@ import Button from '../../atoms/button'
 import Card from '../../atoms/card'
 
 import * as S from './style'
+import Product from '../../../models/product'
 
 export type Props = {
-  condition: string;
-  description: string;
-  picture: string;
-  price: number;
-  sold_quantity: number;
-  title: string;
+  product: Product,
   onBuyItem: () => void;
 }
 
-const ProductDetails = ({ condition, description, picture, price, title, sold_quantity, onBuyItem }: Props) => (
+const ProductDetails = ({ product: { condition, description, picture, price, title, sold_quantity }, onBuyItem }: Props) => (
   <Card>
     <S.Wrapper>
       <S.Content>
-        <Image src={picture} layout="responsive" objectFit="contain" height={640} width={640} priority={true} />
+        <Image src={picture} layout="responsive" objectFit="contain" height={640} width={640} priority={true}  />
 
         <S.Info>
           <S.Details data-testid="details">{condition} - {sold_quantity} vendidos</S.Details>
@@ -38,7 +34,7 @@ const ProductDetails = ({ condition, description, picture, price, title, sold_qu
       <S.Content>
         <div>
           <S.DescriptionTitle>Descrição do produto</S.DescriptionTitle>
-          <S.Description data-testid="description">{description}</S.Description>
+          <S.Description data-testid="description" dangerouslySetInnerHTML={{ __html: description }}></S.Description>
         </div>
       </S.Content>
     </S.Wrapper>
