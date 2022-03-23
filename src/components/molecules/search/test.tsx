@@ -23,7 +23,7 @@ describe('Search', () => {
 
     build({ onSubmit })
 
-    fireEvent.change(screen.getByRole('textbox'), { target: { value: 'hello world' } })
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'hello world' } })
     fireEvent.click(screen.getByRole('button'))
 
     expect(onSubmit).toHaveBeenCalled()
@@ -34,7 +34,7 @@ describe('Search', () => {
 
     build({ onSubmit })
 
-    fireEvent.change(screen.getByRole('textbox'), { target: { value: 'he' } })
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'he' } })
     fireEvent.click(screen.getByRole('button'))
 
     expect(onSubmit).not.toHaveBeenCalled()
