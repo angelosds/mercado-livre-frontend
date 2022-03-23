@@ -50,16 +50,15 @@ exports[`ProductDetails should render the component 1`] = `
           buy|undefined
         </button>
         <p
-          class="sc-iCfMLu FuuQL"
+          class="sc-iCfMLu hzWIIb"
           data-testid="price"
         >
-          $ 
+          currencySymbol|undefined
+           
           1.200
-          <span
-            class="sc-furwcr iyOiGj"
-          >
+          <sup>
             99
-          </span>
+          </sup>
         </p>
       </div>
     </div>
@@ -68,12 +67,12 @@ exports[`ProductDetails should render the component 1`] = `
     >
       <div>
         <h2
-          class="sc-pVTFL iXEJci"
+          class="sc-furwcr ggkfDR"
         >
           productDescription|undefined
         </h2>
         <p
-          class="sc-jrQzAO cYTIJZ"
+          class="sc-pVTFL kHLbEI"
           data-testid="description"
         >
           Descrição

@@ -42,17 +42,15 @@ export const Title = styled.h1`
 `
 
 export const Price = styled.p`
-  display: flex;
   font-size: ${({ theme }) => theme.fontSizes.xl};
   font-weight: 300;
   line-height: 1;
   margin: 24px 0 0 0;
-`
 
-export const Cents = styled.span`
-  font-size: ${pixelToRem(20)};
-  line-height: ${pixelToRem(28)};
-  margin-left: 4px;
+  > sup {
+    font-size: ${pixelToRem(20)};
+    line-height: ${pixelToRem(28)};
+  }
 `
 
 export const DescriptionTitle = styled.h2`

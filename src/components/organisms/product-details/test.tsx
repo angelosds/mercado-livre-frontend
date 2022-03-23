@@ -78,25 +78,25 @@ describe('ProductDetails', () => {
   it('should render a product price without cents', () => {
     build(defaultProps)
 
-    expect(screen.getByTestId('price').textContent?.substring(2, 7)).toEqual(Math.floor(1200).toLocaleString())
+    expect(screen.getByTestId('price').textContent?.substring(25, 30)).toEqual(Math.floor(1200).toLocaleString())
   })
 
   it('should render a product price without cents when price is 0', () => {
     build({ ...defaultProps, product: { ...defaultProps.product, price: 0 } })
 
-    expect(screen.getByTestId('price').textContent?.substring(2, 3)).toEqual('0')
+    expect(screen.getByTestId('price').textContent?.substring(25, 26)).toEqual('0')
   })
 
   it('should render a product price cents', () => {
     build(defaultProps)
 
-    expect(screen.getByTestId('price').textContent?.substring(7, 9)).toEqual((99).toLocaleString())
+    expect(screen.getByTestId('price').textContent?.substring(30, 32)).toEqual((99).toLocaleString())
   })
 
   it('should render a product price cents when price is 0', () => {
     build({ ...defaultProps, product: { ...defaultProps.product, price: 0 } })
 
-    expect(screen.getByTestId('price').textContent?.substring(3, 5)).toEqual('00')
+    expect(screen.getByTestId('price').textContent?.substring(26, 28)).toEqual('00')
   })
 
   it('should render a product description', () => {

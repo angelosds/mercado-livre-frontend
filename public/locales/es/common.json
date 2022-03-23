@@ -12,5 +12,6 @@
   "selled_zero": "Ninguno vendido",
   "selled_one": "1 vendido",
   "selled_other": "{{count}} vendidos",
-  "searchResults": "Resultados de búsqueda para {{term}} - {{appName}}"
+  "searchResults": "Resultados de búsqueda para {{term}} - {{appName}}",
+  "currencySymbol": "$"
 }

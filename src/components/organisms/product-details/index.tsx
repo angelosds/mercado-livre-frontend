@@ -29,8 +29,7 @@ const ProductDetails = ({ product: { condition, description, picture, price, tit
             <S.Title>{title}</S.Title>
             <Button onClick={onBuyItem}>{t('buy')}</Button>
             <S.Price data-testid="price">
-              $ {Math.floor(price || 0).toLocaleString()}
-              <S.Cents>{floatToCents(price)}</S.Cents>
+              {t('currencySymbol')} {Math.floor(price || 0).toLocaleString()}<sup>{floatToCents(price)}</sup>
             </S.Price>
           </S.Info>
         </S.Content>
