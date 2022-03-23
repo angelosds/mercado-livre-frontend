@@ -25,6 +25,7 @@ exports[`Header should render the component 1`] = `
         <input
           class="sc-hKwDye gygVYn"
           radius="left"
+          type="search"
           value=""
         />
         <button

@@ -18,6 +18,7 @@ exports[`Input should render the component 1`] = `
 <input
   class="c0"
   radius="full"
+  type="text"
   value=""
 />
 `;

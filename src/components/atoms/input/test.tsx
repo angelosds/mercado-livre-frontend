@@ -9,8 +9,8 @@ import { theme } from '../../../theme';
 import Input, { Props } from '.'
 
 describe('Input', () => {
-  const build = ({ placeholder, radius, value, onChange }: Props) => {
-    const { container } = render(<ThemeProvider theme={theme}><Input placeholder={placeholder} radius={radius} value={value} onChange={onChange} /></ThemeProvider>)
+  const build = ({ placeholder, radius, type, value, onChange }: Props) => {
+    const { container } = render(<ThemeProvider theme={theme}><Input placeholder={placeholder} radius={radius} type={type} value={value} onChange={onChange} /></ThemeProvider>)
     const styleContainer = renderer.create(<ThemeProvider theme={theme}><Input placeholder={placeholder} radius={radius} value={value} onChange={onChange} /></ThemeProvider>).toJSON()
 
     return { container, styleContainer }
@@ -82,5 +82,13 @@ describe('Input', () => {
     expect(styleContainer).toHaveStyleRule('border-bottom-right-radius', '0')
     expect(styleContainer).toHaveStyleRule('border-top-left-radius', '0')
     expect(styleContainer).toHaveStyleRule('border-top-right-radius', '0')
+  })
+
+  it('should adds a type to the input', () => {
+    const type = 'email'
+
+    build({ type, onChange: () => {} })
+
+    expect(screen.getByRole('textbox')).toHaveAttribute('type', type)
   })
 })

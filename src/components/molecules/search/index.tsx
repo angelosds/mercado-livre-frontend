@@ -22,7 +22,7 @@ const Search = ({ onSubmit }: Props) => {
 
   return (
     <S.Form onSubmit={handleSubmit}>
-      <Input radius='left' value={query} onChange={(event: React.ChangeEvent<HTMLInputElement>) => setQuery(event.target.value)} />
+      <Input radius='left' type="search" value={query} onChange={(event: React.ChangeEvent<HTMLInputElement>) => setQuery(event.target.value)} />
       <S.Submit type="submit">
         <SearchIcon height={18} width={18} />
       </S.Submit>
